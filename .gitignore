@@ -4,10 +4,16 @@ __pycache__/
 
 # C extensions
 *.so
+# Configuration file
+config.cfg
+*.*~
 
 # Distribution / packaging
 .Python
 env/
+elasticsearch/
+logs/
+venv/
 build/
 develop-eggs/
 dist/
@@ -21,6 +27,7 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+*.pyc
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
