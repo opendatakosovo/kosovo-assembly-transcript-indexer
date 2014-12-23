@@ -1,7 +1,10 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-
+/elasticsearch14/
+/kati/utils/
+kibana-4.0.0-BETA2.zip
+.idea/
 # C extensions
 *.so
 # Configuration file
@@ -11,7 +14,10 @@ config.cfg
 # Distribution / packaging
 .Python
 env/
+/.idea
 elasticsearch/
+kibana/
+node_modules/
 logs/
 venv/
 build/

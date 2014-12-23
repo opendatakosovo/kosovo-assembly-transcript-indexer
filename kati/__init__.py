@@ -6,11 +6,13 @@ from logging.handlers import RotatingFileHandler
 from flask import Flask
 from flask.ext.pymongo import PyMongo
 
-
+from utils.utils import Utils
 
 # Create MongoDB database object.
 mongo = PyMongo()
 
+
+utils = Utils()
 def create_app():
     ''' Create the Flask app.
     '''
